@@ -1,0 +1,53 @@
+@media screen and (max-width:1365px) {
+	body > #header, #newlifeArea,
+	body > #footer_menu,
+	body > #footer_nav, .goToTop,
+	body > #copyright {
+        width: 100%;
+    }
+    #newlife_2nd_container {
+        width: 93%;
+    }
+    #newlife_2nd_container ul {
+        width: 94%;
+    }
+    #newlife_2nd_container .desc {
+        width: 88%;
+    }
+    div .banner img{
+        width: 100%;
+    }
+    #newlife_2nd_container > table {
+        width: 87%;
+    }
+    #newlife_2nd_container > table td center {
+		width: 82%;
+		padding: 4% 8%;
+    }
+}
+@media screen and (max-width:736px) {
+	center #img1 {
+		float: none;
+		width: 100%;
+    }
+    center #img2 {
+		float: none;
+		width: 89%;
+    }
+    #newlife_2nd_container ul > li {
+		display: block;
+		width: 92%;
+		background: url(../img/border/002.png) repeat-x;
+		padding: 8% 2%;
+    }
+    
+    #newlife_2nd_container > table td {
+		width: 98%;
+		display: block;
+		background: url(../img/border/001.png) repeat-y, url(../img/border/002.png) repeat-x,url(../img/border/001.png) repeat-y right;
+		padding: 32px 0;
+    }
+    #newlife_2nd_container > table td.three {
+        background: url(../img/border/001.png) repeat-y, url(../img/border/002.png) repeat-x, url(../img/border/001.png) repeat-y right;
+    }
+}
